@@ -1,0 +1,79 @@
+{"intents":[
+    {"tags":"Thanks",
+    "patterns":["Thanks","Thank you","Thanks for the help","Thank you for helping me "],
+    "responses":["your Welcome","Mention not","Happy to help you","welcome"]
+    },
+    {"tag":"about GDSC KGEC",
+    "patterns":["What  is GDSC KGEC"," Tell me something about GDSC KGEC","Can you tell me what GDSC is?"],
+    "responses":["GDSC is a developers club of KGEC","GDSC is a developers club where KGEC students create various projects related to IT feild"]
+
+    },
+    {"tag":"domain_option",
+    "patterns":["What are the feild of works GDSC offers?","What are the domain in which GDSC works?","What are domain GDSC have?"],
+    "responses":["GDSC works on the feild like machine learning,web development,front end , back end,android development,flutter,app development and Internet of things","The domain of work GDSC offers are machine learing,appdevelpment,web development,front end , back end,Intyernet of thing ,flutter and android development"]
+
+
+    },
+    {"tag":"Domain_Machine learning ",
+    "patterns":["What is Machine learning","Tell me something about machine learning"],
+    "responses":["Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so"]
+
+
+    },
+    {"tag":"Domain_IoT",
+    "patterns":["what is IoT?","can you tell me something about IoT","what IoT means?"],
+    "responses":["The term IoT, or Internet of Things, refers to the collective network of connected devices and the technology that facilitates communication between devices and the cloud, as well as between the devices themselves."]
+
+    },
+    
+    {"tag":"contact",
+    "patterns":["how I can contact with GDSC","How to connect with GDSC","Can I connect your creator"],
+    "responses":["you can go to "]
+
+
+    },
+    {"tag":"name",
+    "patterns":["what's your name?","what should I call you?","what is your name?"],
+    "responses":["you can me Adrishayantee","My name is Adrishayantee","Just call me Adrishayantee"]
+
+    },
+
+    {"tag":"Domain_fluttur",
+    "patterns":["what is flutter development?","what flutter development means?","Please tell me sopmething about flutter development"," Tell me something about flutter development"],
+    "responses":["Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase"]
+
+
+    },
+    {"tag": "greeting",
+     "pattern": ["Hi There","Hello","What's up","Is Anyone There?","How are You?","Hola","Good Day"],
+     "responses": ["Hello, Thanks for Asking","Good to see you again","Hello There","Hi, How can I Help You?","Welcome Back"]
+    },
+    {"tag": "Goodbye",
+     "pattern": ["Bye","goodbye","See you Later","Nice Chatting to You","Till Next Time","Alvida"],
+     "responses":["GoodBye Sir","Thanks for your time sir","See You!","Bye!Hope we will meeet soon.","Come back again soon"]
+    },
+    {"tag": "About You",
+     "pattern": ["Tell me About You","Introduce You","Tell me Your Name","About Yourself"],
+     "responses":["I am a Adrishyantee Maiti,Lead of Kalyani Government Google Developer Student's Club.Thanks for Contacting GDSC KGEC","Hi!This is Adrishyantee Maiti,Lead of Kalyani Government Google Developer Student's Club.I am Persuing my B.TECH DEGREE FROM Kalyani Government Engineering College."]
+    },
+    {"tag": "Help",
+     "pattern": ["I need Your Help","Help Me","Can You Help Me?","Please Help Me.","Can You Help Me?"],
+     "responses": ["Yes,Please Ask your Problem","I am Always Here to help you","Please ask","Tell me Your Problems."]
+    },
+    {"tag": "domain_Front-end",
+     "pattern" :["What is Front-end in Web-Developement?","Tell me About Front End.","How To Learn Front-end?"],
+     "responses" :["A front-end developer is someone who works on software, like desktop or mobile websites, that users interact with. Specifically, a front-end developer spends time on the side of technology that the user touches and sees.You Need To Learn HTML,CSS,Javascripts and Some Frameworks like Angular to learn Front-end Developement.",
+     "The front end is what you see on the screen — menus, graphics, and other features. You’ll also see the front end called client-side because that’s who is interacting with it. Front-end developers are primarily responsible for the sites appearance.You Need To Learn HTML,CSS and Javascript to become a front end Developer."]
+    },
+    {"tag": "domain_back-end",
+     "pattern": ["What is Back-end in Web-Developement?","Tell me About Back End.","How To Learn Back-end?"],
+     "responses": ["Back-end Development refers to the server-side development. It focuses on databases, scripting, website architecture. It contains behind-the-scene activities that occur when performing any action on a website. It can be an account login or making a purchase from an online store. Code written by back-end developers helps browsers to communicate with database information.The Main Skills That will be Need are - Web Developement Languages(ava, Python, Ruby, . Net etc.),Database and Cache, Server and API.",
+    "Web development activities that are done at the back end of programs are referred to as back end development. Back-end development covers server-side web application logic and integration and activities, like writing APIs, creating libraries, and working with system components instead of frontend development, which focuses on customer-facing services and programs. Backend developers build code that allows a database and an application to communicate with one another. Backend developers take care and maintain the back-end of a website, Including databases, servers, and apps, and they control what you don't see.The Main Skills That will be Need are - Web Developement Languages(ava, Python, Ruby, . Net etc.),Database and Cache, Server and API."]
+    },
+    {"tag": "domain_Android",
+     "pattern": ["What is Back-end in Android-Developement?","Tell me About Android Developement.","How To Learn Android Developement?"],
+     "responses": ["Android development has continued to dominate the mobile app world. With several tech giants like Samsung, Sony, and Huawei creating different Android devices, now is the best time to learn Android development.So, what is Android development and why should you learn it?Android development is the process of creating software applications that are compatible with devices that run on the Android OS.Skiils that will be needed - Android Decelopement Languages(Java,Kotlin),Android User Interface,Android Studios AND Android SDK"]
+    }
+
+
+]}
