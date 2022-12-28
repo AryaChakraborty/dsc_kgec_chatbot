@@ -1,0 +1,267 @@
+{"intents":
+[
+
+
+{
+"tag":"domains",
+"pattern": ["What are the domains GDSC has?",
+"What are the fields of work GDSC offers?" ,
+"What is the domain in which GDSC works?" ,
+"What domains does GDSC have?","Tell about the domains of GDSC and KGEC.",
+"Tell me something about the domains of GDSC,",
+"What domains does GDSC have?",
+"Please tell me about the domains of GDSC."] ,
+"responses": ["GDSC works on the technical domains of machine learning and artificial intelligence, app development, web development (including front end and back end development), Android development, Flutter, and Next-Gen, as well as the non-technical domains of UI/UX design, content writing, video editing, outreach, and event management.",
+"GDSC works on technical domains, which are machine learning and artificial intelligence, app development, web development (including front end and back end development), Android development, Flutter, Next-Gen, and non-technical domains such as UI/UX design, content writing,  video editing, outreach, and event management."],
+"context":"all domains"
+},
+
+{"tag":"domains",
+"pattern": ["What is machine learning?",
+"What exactly does machine learning do?",
+"What are the applications of machine learning?",
+"What is the purpose of the machine learning domain?"],
+"responses": ["Machine learning is a subfield of artificial intelligence," ,"which is broadly defined as the capability of a machine to imitate intelligent human behavior.",
+"Machine learning is used to predict the future outcome of a given data set.",
+"The applications of machine learning are image recognition,  speech recognition, traffic prediction, product recommendations, self-driving cars, email spam and malware filtering,  virtual personal assistants,  and online fraud detection."] ,
+"context":"machine learning"},
+
+{"tag":"domains",
+"pattern": ["What is web development?",
+"What does web development do?",
+"What are the web development applications?",
+"What is the purpose of development?",
+"What does web development mean?"],
+"responses": ["Web development is the building and maintenance of websites",
+"Web application development is the creation of application programmes that reside on remote servers and are delivered to the user's device over the Internet.",
+"Web application development is the creation of application programmes that reside on remote servers and are delivered to the user's device over the Internet.",
+"Web app development empowers web-based projects to perform and act similarly to a mobile app." ,"Web applications engage users, prioritising responsive interactions, but are still delivered through the internet over a network. ","You can say that web app development is the posterity of web development."],
+ "context":"web developement" },
+
+
+ {"tag":"domains",
+"pattern": ["What exactly is front end development?",
+"What exactly is the front end?",
+"What is the purpose of front-end development?",
+"What is the purpose of the front end?",
+"As a developer, what is the purpose of front-end development?",
+"What exactly do front-end developers do?" ],
+"responses": ["A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with.",
+"An Overview of What a Front End Developer Does.A front-end developer has one general responsibility: to ensure that website visitors can easily interact with the page.",
+"A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.",
+"Front-end development is the process of building components that interact with users. Examples are the user interface, buttons, user-entered data, websites, and user experience (UX) features." ],
+ "context":"frontend developement"},
+
+
+{"tag":"domains",
+"pattern":["What exactly is the back end?",
+"What is the purpose of back-end development?" ,
+"What is the purpose of the back end?",
+"As a developer, what is the purpose of back-end development?",
+"What exactly do back-end developers do?"],
+"responses": ["Back-end development means working on server-side software, which focuses on everything you can't see on a website.",
+"The task of the back end is finding the information the user needs within databases, which contain an enormous amount of data, and then combining it in a way that provides useful and required results.",
+"A back-end application or programme supports front-end user services and interfaces with any required resources.", "The back-end application may interact directly with the front end, or it may be called from an intermediate programme that mediates front-end and back-end activities." ],
+ "context":"backend developement"
+},
+
+
+{"tag":"domains",
+"pattern":[ "How does Android development work?",
+"What exactly is an Android?",
+"What is the purpose of Android development?",
+"What is the purpose of Android?",
+"As a developer, what is the purpose of Android development?",
+"What exactly do Android developers do?"] ,
+"responses": [ "An Android developer designs software and applications for Android devices and the Google Play Store.",
+"Android development is a form of software engineering dedicated specifically to creating applications for devices that run on the Android platform.",
+"Android developers create various mobile applications on the Android platform. As a part of their main responsibilities, they develop the apps we use on our smartphones and tablets. They often collaborate with cross-functional teams to develop better apps with fewer bugs.",
+"Application development is the process of creating a computer programme or a set of computer programmes to perform the different tasks that a business requires.",
+"Android software development is the process by which applications are created for devices running the Android operating system."] ,
+ "context":"android developement" },
+
+{"tag":"domains",
+"pattern":[ "How Does Flutter Development Work?",
+"What exactly is the Flutter?",
+"What is the purpose of Flutter development?",
+"What is the purpose of Flutter?",
+"As a developer, what is the purpose of Flutter development?",
+"What exactly do Flutter developers do?"],
+"responses": ["Flutter is an open-source software development kit that enables smooth and easy cross-platform mobile app development.",
+"Flutter developers work on cross-platform mobile app development and can create an amazing UI for your application. With a great Flutter developer, you can build a robust and high-quality app for iOS and Android with ease.",
+"Flutter developers are involved in the deployment of applications. A mobile app is uploaded to Google Play for Android applications or the App Store for iOS applications. User feedback is then monitored and used to make changes to the applications.",
+"Flutter is designed to support mobile apps that run on both Android and iOS, as well as interactive apps that you want to run on your web pages or on the desktop. Apps that need to deliver highly branded designs are particularly well suited for Flutter."],
+"context":"flutter developement"
+},
+
+
+{"tag":"about",
+ "pattern":["Introduce Yourself",
+"Tell me a little bit about yourself,",
+"Can you tell me something about yourself?",
+"What's your name? ",
+"Can you tell me your real name?",
+"What is your real name, please?",
+"What is your given name?",
+"Can you tell me your real name?",
+"Your real name?",
+"May I have your full name?",
+"May I have your full name?"],
+"responses": ["Myself, chumly",
+"Hello, my name is Chymly.",
+"My name is Chumly.",
+"You may refer to me as Chumly"],
+"context":"chumly"},
+
+{"tag":"About GDSC",
+"pattern":[" Tell me something about GDSC and KGEC.",
+"What is GDSC?" ,
+"What does GDSC do?",
+"Can you please tell me about GDSC?",
+"Can you please tell me what GDSC does?" ,
+"What is the GDSC's role?",
+"What exactly is GDSC kGEC?",
+"What does GDSC KGEC actually do?"] ,
+"responses":[ "Google Developer Student Clubs (GDSC) are community groups for college and university students interested in Google developer technologies.Students from all undergraduate or graduate programmes with an interest in growing as developers are welcome.",
+"GDSC launched in 2017 as a pilot in India to help solve the challenges that university graduates were facing in securing employment in the tech industry. We are currently in over 1200+ universities across the globe in 100+ countries!",
+"GDSC is a KGEC developers club.",
+"GDSC is a developers club where KGEC students work on various IT-related projects.",
+"Google Developer Student Club KGEC is something more than a club; it is a community where we help each other grow while learning from one another",
+"GDSC KGEC is a developer's student club that works on app development, web development, machine learning, the internet of things (IoT), cyber security, and cryptography."] ,
+"context":"gdsc" },
+
+ {"tag":"Good Bye",
+"pattern":["Bye",
+"Adios",
+"See you later",
+"See U",
+"Goodbye",
+"Nice talking with you",
+"Till Next Time",
+"Alvida",
+"Thanks, bye",
+"Thank you for your assistance; goodbye.",
+ "Thank you, bye",
+"Thank you, goodbye,",
+ "Thanks goodbye",
+"Thanks, good bye."],
+"responses": ["See you later",
+ "Have a nice day",
+ "Bye! ",
+"Come back again soon.",
+"No problem, goodbye,",
+"Not a problem!  Have a wonderful day!",
+"Bye! Come back again soon."],
+"context":"bye" },
+
+
+
+ {"tag":"Thanks",
+"pattern":["Thanks",
+ "Thank you",
+"Thanks for the help",
+"Thank you for assisting me!",
+ "OK thank you",
+ "OK thanks",
+ "OK",
+"Thanks",
+ "That's helpful"],
+"responses":["your Welcome",
+"Mention not",
+"welcome",
+"No problem!",
+"Happy to help!",
+"Any time!",
+"My pleasure"],
+ "context":"thanks"
+ },
+
+
+ {"tag": "greeting",
+ "pattern": ["Hi There",
+  "Hello",
+"What's up",
+"Is Anyone There?",
+"How are You?",
+"Hola",
+"Good Day",
+"Welcome to the GDSC KGEC; this is Chumly"],
+"responses": ["Hello",
+"It's great to see you again!",
+"Hello There",
+"How may I assist you?",
+ "Welcome Back"],
+ "context":"greet"
+ },
+
+
+
+{"tag":"events",
+"pattern": ["What are the past events of GDSC KGEC?",
+"Tell me about the events that are going to happen in the upcoming days.",
+"Does GDSC conduct events or hackathons?" ,
+"Are there any events taking place at GDSC?",
+"Tell me about some GDSC events,",
+"What are the past events of GDSC and KGEC?",
+"Tell me about some events that have already ended.",
+"What are the events that have already ended?",
+"Past events or upcoming events",
+"What are the upcoming events of GDSC KGEC?",
+"Tell me about the events that are going to happen in the coming days."],
+
+"responses":[ "GDSC has conducted an orientation session in 2021, which is held every year and where GDSC showcases some of the best projects,",
+"GDSC conducts its orientation and information session every year.",
+"GDSC conducts its orientation and information session every year, where we showcase some of our best projects.",
+"GDSC recently hosted an event called Compose Camp, which focused on Android app development.",
+"Earlier, GDSC had conducted an EML workshop for beginners that was focused on machine learning and neural networks.",
+"Stay connected with us. We will soon notify you about our upcoming events.",
+"GDSC organises some interactive sessions every month. Please stay connected with us to know about the upcoming session.",
+"GDSC releases a lot of technical content, so stay connected with us to see the next technical content.",
+"This year, GDSC has hosted a number of events, including an EML workshop, a compose camp, an info session, and the KGEC Summer of Code 2022.",
+"To know about the events, please connect with our Discord server.",
+"Please connect with our Discord server. There you will get to know all about our past and upcoming events.",
+"To know about our upcoming and past events, please connect with the GDSC KGEC Discord server."],
+"context":"event"
+},
+
+
+ {"tag":"events",
+  "pattern":["what is GDSC KSOC?",
+"What actually happens in GDSC and KSOC?" ,
+"What goes on in GDSC and KSOC?"],
+"responses": ["KGEC Summer of Code (KSoC) is a global, online programme focused on bringing new contributors into open-source software development."] ,
+ "context":"GDSC KSOC"
+ },
+
+
+ {"tag":"events",
+"pattern": ["What exactly is hack fest?",
+"What actually happens in hackfests?",
+"What happens during the hackfest?"],
+"responses":["A 3-day physical event that includes not only a hackathon but also speaker sessions, tech talks, a panel discussion, and e-games"],
+ "context":"hack fest"
+ },
+
+
+
+{"tag":"Connection",
+"pattern": ["How can I connect with you?",
+ "I want to connect with GDSC",
+"Could you please tell me how I can get in touch with the GDSC?",
+"How can I get in touch with the GDSC?",
+"How to connect with GDSC",
+"May I connect you with your creator?"],
+"responses": ["You can connect with our Discord server,",
+"Please connect with our Discord server.",
+"Connect with our Discord server."],
+ "context":"contact"
+
+
+ }
+
+
+
+]
+
+
+}
